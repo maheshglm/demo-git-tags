@@ -1,0 +1,17 @@
+name: build api
+
+on: 
+  push:
+    branches:
+      - main
+    paths:
+      - "web/**"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+       - uses: actions/checkout@v3
+       - name: disaply content
+         run: |
+            cat web/web.txt

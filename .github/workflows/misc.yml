@@ -1,0 +1,17 @@
+name: build misc
+
+on: 
+  push:
+    branches:
+      - main
+    paths:
+      - "misc/**"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+       - uses: actions/checkout@v3
+       - name: disaply content
+         run: |
+            cat misc/misc.txt
