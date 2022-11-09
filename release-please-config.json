@@ -30,6 +30,6 @@
       "changelogPath": "CHANGELOG.md",
       "versioning": "default"
     }
-  }
+  },
   "plugins": ["cargo-workspace"]
 }
