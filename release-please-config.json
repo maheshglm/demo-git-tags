@@ -10,7 +10,7 @@
       "prerelease": false,
       "bump-minor-pre-major": false,
       "bump-patch-for-minor-pre-major": false,
-      "changelog-path": "CHANGELOG.md"
+      "package-name": "api"
     },
     "misc": {
       "release-type": "simple",
@@ -18,7 +18,7 @@
       "prerelease": false,
       "bump-minor-pre-major": false,
       "bump-patch-for-minor-pre-major": false,
-      "changelog-path": "CHANGELOG.md"
+      "package-name": "misc"
     },
     "web": {
       "release-type": "simple",
@@ -26,7 +26,7 @@
       "prerelease": true,
       "bump-minor-pre-major": false,
       "bump-patch-for-minor-pre-major": false,
-      "changelog-path": "CHANGELOG.md"
+      "package-name": "web"
     }
   },
   "plugins": ["cargo-workspace"]
