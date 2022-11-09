@@ -4,14 +4,15 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
-      
+      - develop
+
 jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@v3
         with:
-          command: manifest
+          command: manifest-pr
           monorepo-tags: true
-          token: ${{ secrets.RELEASE_PLEASE_PAT }}          
+          token: ${{ secrets.RELEASE_PLEASE_PAT }}     
+          prerelease: true     
