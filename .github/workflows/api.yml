@@ -24,9 +24,11 @@ jobs:
          run: |
             cat api/api.txt
        - name: run on main branch
+         if: github.ref == 'refs/heads/main'
          run: |
             echo "Building main branch"
       
        - name: run on develop branch
+         if: github.ref == 'refs/heads/develop'
          run: |
             echo "Building develop branch"
