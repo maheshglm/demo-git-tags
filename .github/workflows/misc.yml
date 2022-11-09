@@ -7,7 +7,7 @@ on:
     paths:
       - "misc/**"
   pull_request:
-    types: [opened, synchronize, reopened ]
+    types: [opened, synchronize, reopened]
     branches:
       - 'main'
       - 'develop'
