@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - develop
     paths:
       - "api/**"
   pull_request:
@@ -22,3 +23,10 @@ jobs:
        - name: disaply content
          run: |
             cat api/api.txt
+       - name: run on main branch
+         run: |
+            echo "Building main branch"
+      
+       - name: run on develop branch
+         run: |
+            echo "Building develop branch"
