@@ -8,4 +8,5 @@ creating feature1 branch with api change1
 creating feature2 branch with api change1
 
 ---- 
-f1 branch to develop branch
+f1 branch to develop branch change1
+f1 branch to develop branch change2
