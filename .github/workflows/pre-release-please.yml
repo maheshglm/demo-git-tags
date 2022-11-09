@@ -1,18 +1,18 @@
-name: release-please
+name: pre-release-please
 
 on:
   workflow_dispatch:
   push:
     branches:
       - develop
-
+      
 jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@v3
         with:
-          command: manifest-pr
+          command: manifest
           monorepo-tags: true
-          token: ${{ secrets.RELEASE_PLEASE_PAT }}     
-          prerelease: true     
+          token: ${{ secrets.RELEASE_PLEASE_PAT }}
+          prerelease: true
