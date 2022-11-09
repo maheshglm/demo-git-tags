@@ -6,6 +6,15 @@ on:
       - main
     paths:
       - "web/**"
+  pull_request:
+    types: [opened, synchronize, reopened ]
+    branches:
+      - 'main'
+      - 'develop'
+      - 'master'
+    paths:
+      - 'web/**'
+
 
 jobs:
   test:
