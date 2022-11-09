@@ -14,4 +14,4 @@ jobs:
         with:
           command: manifest
           monorepo-tags: true
-          token: ${{ secrets.RELEASE_PLEASE_PAT }}          
+          token: ${{ secrets.RELEASE_PLEASE_PAT }}
