@@ -2,6 +2,7 @@
   "bootstrap-sha": "5f630bb5305e826037104de97ec2b61eaab3f96a",
   "pull-request-title-pattern": "chore: release${component} ${version}",
   "group-pull-request-title-pattern": "chore: release ${branch}",
+  "releaseType": "simple",
   "packages": {
     "api": {
       "releaseType": "simple",
