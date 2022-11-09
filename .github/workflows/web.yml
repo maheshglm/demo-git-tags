@@ -7,13 +7,12 @@ on:
     paths:
       - "web/**"
   pull_request:
-    types: [opened, synchronize, reopened ]
+    types: [opened, synchronize, reopened]
     branches:
-      - 'main'
-      - 'develop'
-      - 'master'
+      - main
+      - develop
     paths:
-      - 'web/**'
+      - "web/**"
 
 
 jobs:

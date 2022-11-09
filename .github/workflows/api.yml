@@ -4,16 +4,16 @@ on:
   push:
     branches:
       - main
+      - develop
     paths:
       - "api/**"
-    pull_request:
-      types: [opened, synchronize, reopened ]
-      branches:
-        - 'main'
-        - 'develop'
-        - 'master'
-      paths:
-        - 'api/**'
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - main
+      - develop
+    paths:
+      - "api/**"
 
 jobs:
   test:
@@ -23,8 +23,12 @@ jobs:
        - name: disaply content
          run: |
             cat api/api.txt
-       - name: Bump version and push tag
-         uses: anothrNick/github-tag-action@v1
-         env:
-           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-           WITH_V: true
+       - name: run on main branch
+         if: github.ref == 'refs/heads/main'
+         run: |
+            echo "Building main branch"
+      
+       - name: run on develop branch
+         if: github.ref == 'refs/heads/develop'
+         run: |
+            echo "Building develop branch"
