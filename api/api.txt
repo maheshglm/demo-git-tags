@@ -9,4 +9,5 @@ creating feature2 branch with api change1
 
 --- 
 
-added a change to f2 branch
+added a change1 to f2 branch
+added a change2 to f2 branch
