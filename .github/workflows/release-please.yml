@@ -1,31 +1,21 @@
-name: release-please
+name: pre-release-please
 
 on:
   workflow_dispatch:
-  # push:
-  #   branches:
-  #     - main
       
 jobs:
-  release-please:
+  pre-release-please:
     runs-on: ubuntu-latest
     steps:
-      - uses: google-github-actions/release-please-action@v3
+      - uses: google-github-actions/release-please-action@v3.1.2
         id: release
         with:
           command: manifest
           monorepo-tags: true
           token: ${{ secrets.RELEASE_PLEASE_PAT }}
-
+          
       - name: print outputs
         run: |
-          echo ${{ steps.release.outputs.release_created }}
-          echo ${{ steps.release.outputs.upload_url }}
-          echo ${{ steps.release.outputs.html_url }}
-          echo ${{ steps.release.outputs.tag_name }}
-          echo ${{ steps.release.outputs.major }}
-          echo ${{ steps.release.outputs.minor }}
-          echo ${{ steps.release.outputs.patch }}
-          echo ${{ steps.release.outputs.sha }}
-          echo ${{ steps.release.outputs.pr }}
-          echo ${{ steps.release.outputs.prs }}
+          echo ${{ steps.release.outputs.stdout }}
+
+
