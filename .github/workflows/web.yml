@@ -6,7 +6,6 @@ on:
       - main
     paths:
       - "web/**"
-      - "!web/CHANGELOG.md"
   pull_request:
     types: [opened, synchronize, reopened]
     branches:
