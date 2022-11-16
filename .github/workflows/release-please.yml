@@ -1,4 +1,4 @@
-name: pre-release-please
+name: elease-please
 
 on:
   workflow_dispatch:
