@@ -2,12 +2,9 @@ name: pre-release-please
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - develop
       
 jobs:
-  release-please:
+  pre-release-please:
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@v3
@@ -15,4 +12,4 @@ jobs:
           command: manifest
           monorepo-tags: true
           token: ${{ secrets.RELEASE_PLEASE_PAT }}
-          prerelease: true
+          prerelease: beta
