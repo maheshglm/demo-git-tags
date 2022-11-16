@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/maheshglm/demo-git-tags/compare/web-v1.2.0...web-v1.3.0) (2022-11-16)
+
+
+### Features
+
+* updated web ([ff3f30c](https://github.com/maheshglm/demo-git-tags/commit/ff3f30c9541039e19fc4a7c2d1c770736465641d))
+
 ## [1.2.0](https://github.com/maheshglm/demo-git-tags/compare/web-v1.1.0...web-v1.2.0) (2022-11-16)
 
 
