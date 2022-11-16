@@ -15,7 +15,6 @@ on:
       - develop
     paths:
       - "api/**"
-      - "!api/CHANGELOG.md"
 
 jobs:
   test:
