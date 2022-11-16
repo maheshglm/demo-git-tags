@@ -8,8 +8,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@v3
+        id: pre-release
         with:
           command: manifest
           monorepo-tags: true
           token: ${{ secrets.RELEASE_PLEASE_PAT }}
-          prerelease: beta
+          prerelease: true
+          
+      - name: print outputs
+        run: |
+          echo ${{ steps.pre-release.outputs.release_created }}
+          echo ${{ steps.pre-release.outputs.upload_url }}
+          echo ${{ steps.pre-release.outputs.html_url }}
+          echo ${{ steps.pre-release.outputs.tag_name }}
+          echo ${{ steps.pre-release.outputs.major }}
+          echo ${{ steps.pre-release.outputs.minor }}
+          echo ${{ steps.pre-release.outputs.patch }}
+          echo ${{ steps.pre-release.outputs.sha }}
+          echo ${{ steps.pre-release.outputs.pr }}
+          echo ${{ steps.pre-release.outputs.prs }}
+
