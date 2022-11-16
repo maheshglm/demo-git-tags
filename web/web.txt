@@ -7,3 +7,4 @@ Created a feature2 branch with this change1
 --
 
 master commit1
+master commit2
