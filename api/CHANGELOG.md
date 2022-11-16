@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/maheshglm/demo-git-tags/compare/api-v1.5.0...api-v1.6.0) (2022-11-16)
+
+
+### Features
+
+* updated api ([caaa524](https://github.com/maheshglm/demo-git-tags/commit/caaa5249a599731a9b5702e742907fc1177ae74a))
+
 ## [1.5.0](https://github.com/maheshglm/demo-git-tags/compare/api-v1.4.0...api-v1.5.0) (2022-11-16)
 
 
