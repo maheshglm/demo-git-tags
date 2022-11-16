@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/maheshglm/demo-git-tags/compare/api-v1.3.0...api-v1.4.0) (2022-11-16)
+
+
+### Features
+
+* updated api ([303c078](https://github.com/maheshglm/demo-git-tags/commit/303c07862ec0138b4e4792ff6dc4cda0e18e9399))
+
 ## [1.3.0](https://github.com/maheshglm/demo-git-tags/compare/api-v1.2.0...api-v1.3.0) (2022-11-09)
 
 
