@@ -21,6 +21,6 @@ jobs:
           
       - name: print outputs
         run: |
-          echo ${{ steps.release.outputs.stdout }}
+          echo ${{toJSON(steps.release.outputs)}}
 
 
