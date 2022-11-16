@@ -4,3 +4,7 @@ Added 2nd commit
 created a feature1 branch with the chang1
 
 creating feature2 branch with api change1
+
+--
+
+master commit1
