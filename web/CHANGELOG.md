@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/maheshglm/demo-git-tags/compare/web-v1.1.0...web-v1.2.0) (2022-11-16)
+
+
+### Features
+
+* updated all svcs ([582f936](https://github.com/maheshglm/demo-git-tags/commit/582f936eee830976dc14a988e1eca9aa916bdea6))
+
 ## [1.1.0](https://github.com/maheshglm/demo-git-tags/compare/web-v1.0.1...web-v1.1.0) (2022-11-16)
 
 

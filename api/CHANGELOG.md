@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/maheshglm/demo-git-tags/compare/api-v1.6.0...api-v1.7.0) (2022-11-16)
+
+
+### Features
+
+* updated all svcs ([582f936](https://github.com/maheshglm/demo-git-tags/commit/582f936eee830976dc14a988e1eca9aa916bdea6))
+
 ## [1.6.0](https://github.com/maheshglm/demo-git-tags/compare/api-v1.5.0...api-v1.6.0) (2022-11-16)
 
 
