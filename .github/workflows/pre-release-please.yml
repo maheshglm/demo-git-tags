@@ -12,8 +12,7 @@ jobs:
     steps:
       - uses: google-github-actions/release-please-action@v3
         with:
-          command: manifest-pr
+          command: manifest
           monorepo-tags: true
           token: ${{ secrets.RELEASE_PLEASE_PAT }}
           prerelease: true
-          default-branch: develop
