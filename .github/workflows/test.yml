@@ -10,4 +10,4 @@ jobs:
       matrix:
        version: [{"field1":"banana", "field2":"kiwi", "field3":"orange"}, {"field1":"sushi", "field2":"french tacos", "field3":"paracetamol"}]
     steps:
-      - run: echo ${{ matrix.version.0.field1 }}
+      - run: echo ${{ matrix.version.field1 }}
