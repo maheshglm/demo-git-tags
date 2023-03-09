@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/maheshglm/demo-git-tags/compare/api-v1.7.0...api-v1.8.0) (2023-03-09)
+
+
+### Features
+
+* completed api and web changes for new change ([#24](https://github.com/maheshglm/demo-git-tags/issues/24)) ([93f9ea7](https://github.com/maheshglm/demo-git-tags/commit/93f9ea796a882c7a7b35ac624dff9a49f8158ace))
+
 ## [1.7.0](https://github.com/maheshglm/demo-git-tags/compare/api-v1.6.0...api-v1.7.0) (2022-11-16)
 
 

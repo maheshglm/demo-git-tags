@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/maheshglm/demo-git-tags/compare/web-v1.3.0...web-v1.4.0) (2023-03-09)
+
+
+### Features
+
+* completed api and web changes for new change ([#24](https://github.com/maheshglm/demo-git-tags/issues/24)) ([93f9ea7](https://github.com/maheshglm/demo-git-tags/commit/93f9ea796a882c7a7b35ac624dff9a49f8158ace))
+
 ## [1.3.0](https://github.com/maheshglm/demo-git-tags/compare/web-v1.2.0...web-v1.3.0) (2022-11-16)
 
 
