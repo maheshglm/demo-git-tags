@@ -9,3 +9,7 @@ Created a feature2 branch with this change1
 master commit1
 master commit2
 master commit3
+
+--
+
+updated web for squash1 
