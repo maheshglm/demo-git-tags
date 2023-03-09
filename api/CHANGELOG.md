@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/maheshglm/demo-git-tags/compare/api-v1.8.0...api-v1.9.0) (2023-03-09)
+
+
+### Features
+
+* updated api and web for squash2 ([#26](https://github.com/maheshglm/demo-git-tags/issues/26)) ([464b441](https://github.com/maheshglm/demo-git-tags/commit/464b441ff925960064c1977e7e2304e6bc32b732))
+
 ## [1.8.0](https://github.com/maheshglm/demo-git-tags/compare/api-v1.7.0...api-v1.8.0) (2023-03-09)
 
 
