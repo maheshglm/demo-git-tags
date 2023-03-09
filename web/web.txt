@@ -12,4 +12,4 @@ master commit3
 
 --
 
-updated web for squash1 
+updated web for squash1 - fixed
