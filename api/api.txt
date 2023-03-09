@@ -26,4 +26,4 @@ master commit5
 --
 
 updated api for squash1
-updated api for squash2 - fix
+updated api for squash2 - fixed
